@@ -3,8 +3,27 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args){
+        //EP4---------------MadLib------------------------
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Enter a adjective: ");
+        String adjective1 = scanner.nextLine();
+        System.out.print("Enter a noun: ");
+        String noun1 = scanner.nextLine();
+        System.out.print("Enter another adjective: ");
+        String adjective2 = scanner.nextLine();
+        System.out.print("Enter a verb: ");
+        String verb1 = scanner.nextLine();
+        System.out.print("enter another adjective: ");
+        String adjective3 = scanner.nextLine();
+
+        System.out.println("today i went to " + adjective1 + " zoo.");
+        System.out.println("in an exhibit there was a " + noun1);
+        System.out.println(noun1 + " was " + adjective2 + " and " + verb1 + "!");
+        System.out.println("I was " + adjective3 + "!");
+        scanner.close();
         //EP3---------------scanner-----------------------
+        /*
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("enter your name: ");
@@ -36,6 +55,8 @@ public class Main {
         System.out.println(favColour);
 
         scanner.close();
+
+        */
         //EP2---------------integers----------------------
         //int age = 18;
         //int year = 2026;
