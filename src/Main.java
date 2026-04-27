@@ -1,9 +1,36 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args){
+        //EP5--------------arithmetic---------------------
+        int x = 15;
+        int y = 2;
+        int z;
+
+        //x++;
+        //x--;
+
+        //System.out.println(x);
+
+        //x += y;
+        //x -= y;
+        //x *= y;
+        //x /= y;
+        //x %= y;
+
+        //System.out.println(x);
+
+        //z = x + y;
+        //z = x - y;
+        //z = x * y;
+        //z = x / y;
+        //z = x % y;
+
+        //System.out.println(z);
+
         //EP4---------------MadLib------------------------
+        /*
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a adjective: ");
@@ -22,6 +49,7 @@ public class Main {
         System.out.println(noun1 + " was " + adjective2 + " and " + verb1 + "!");
         System.out.println("I was " + adjective3 + "!");
         scanner.close();
+         */
         //EP3---------------scanner-----------------------
         /*
         Scanner scanner = new Scanner(System.in);
