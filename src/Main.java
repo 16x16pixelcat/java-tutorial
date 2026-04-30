@@ -1,9 +1,36 @@
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args){
+        //EP6--------shopping-cart-program----------------
+        Scanner scanner = new Scanner(System.in);
+
+        String food;
+
+        double quantity;
+
+        double price;
+
+        double total;
+
+        System.out.print("What food Did you buy?: ");
+        food = scanner.nextLine();
+
+        System.out.print("how many " + food + " did you buy?: ");
+        quantity = scanner.nextDouble();
+
+        System.out.print("How much does each " + food + " coast?: ");
+        price = scanner.nextInt();
+
+        total = price * quantity;
+
+        System.out.println("You bought " + quantity + " " + food + "/s");
+        System.out.println("your total is: " + total + "JOD");
+
+        scanner.close();
         //EP5--------------arithmetic---------------------
+        /*
         int x = 15;
         int y = 2;
         int z;
@@ -28,7 +55,7 @@ public class Main {
         //z = x % y;
 
         //System.out.println(z);
-
+         */
         //EP4---------------MadLib------------------------
         /*
         Scanner scanner = new Scanner(System.in);
